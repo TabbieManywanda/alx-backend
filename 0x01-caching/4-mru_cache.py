@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 '''MRU Cache'''
+
 from collections import OrderedDict
 
 BaseCaching = __import__('base_caching').BaseCaching
