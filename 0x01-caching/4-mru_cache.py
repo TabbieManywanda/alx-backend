@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-'''MRU Cache'''
+'''MRU Caching'''
 
 from collections import OrderedDict
 
