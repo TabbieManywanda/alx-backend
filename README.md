@@ -7,3 +7,7 @@ Project on Paginating a dataset
 - [0x01. Caching](0x01-caching)
 
 Caching and it's uses
+
+-[0x02. i18n](0x02-i18n)
+
+Using Flask-Babel to work with extensions.
