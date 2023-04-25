@@ -8,10 +8,10 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-@app.route('/')
+@app.route("/", methods=['GET', 'POST'])
 def welcome() -> str:
     '''Returns html template with Hello World'''
-    return render_template('0-index.html')
+    return render_template("0-index.html")
 
 
 if __name__ == '__main__':
