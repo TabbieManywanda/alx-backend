@@ -8,7 +8,7 @@ from flask import Flask, render_template
 app = Flask(__name__)
 
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/')
 def hello_world() -> str:
     '''Returns html template with Hello World'''
     return render_template('0-index.html')
