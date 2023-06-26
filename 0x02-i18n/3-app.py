@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-''' Flask app '''
+''' The flask application '''
 
 from flask import Flask, request, render_template
 from flask_babel import Babel, gettext
@@ -9,7 +9,7 @@ babel = Babel(app)
 
 
 class Config:
-    ''' App config '''
+    ''' Configuration for the application '''
     LANGUAGES = ["en", "fr"]
     BABEL_DEFAULT_LOCALE = "en"
     BABEL_DEFAULT_TIMEZONE = "UTC"
