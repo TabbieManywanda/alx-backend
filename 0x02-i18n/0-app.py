@@ -1,17 +1,14 @@
 #!/usr/bin/env python3
-
-'''Setting up a basic Flask app'''
+''' Flask app '''
 
 from flask import Flask, render_template
-
-
 app = Flask(__name__)
 
 
-@app.route("/", methods=['GET', 'POST'])
-def welcome() -> str:
-    '''Returns html template with Hello World'''
-    return render_template("0-index.html")
+@app.route("/", methods=["GET"], strict_slashes=False)
+def hello_world():
+    ''' return the template '''
+    return render_template('0-index.html')
 
 
 if __name__ == '__main__':
